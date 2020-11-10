@@ -1,7 +1,7 @@
 	; Processor directive required by dasm
 	PROCESSOR 6502
 ;
-; Story loader for Commodore 64 ZIP version D
+; Story loader for Commodore 64 ZIP version D, E and F
 ;
 ; This standalone program is the one visible file in
 ; the directory of a standard C-64 game disk, typically
