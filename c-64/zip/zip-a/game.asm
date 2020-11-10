@@ -72,7 +72,7 @@ LOADER	LDA	#$C0		; Set Kernal and Control messages on
 	; Display "Loading game ..." message
 	LDA	#CLS		; Clear screen
 	JSR	CHROUT
-	LDX	#11		; Move cursor to (11, 12)
+	LDX	#11		; Move cursor to (12, 11)
 	LDY	#12
 	CLC
 	JSR	PLOT
