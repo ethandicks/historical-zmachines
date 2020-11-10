@@ -171,7 +171,7 @@ LOD0	STA	FRELO1,X	; SID registers
 	LDA	#>SAYYN
 	JSR	DLINE		; "(Press Y or N)"
 
-GETL	JSR	GETIN		; Get a character from keyboarr
+GETL	JSR	GETIN		; Get a character from keyboard
 	TAX
 	BEQ	GETL		; Repeat until something is pressed
 	AND	#%01111111	; Screen out shifts
