@@ -34,9 +34,6 @@ SECTOR	EQU	$0007
 TIME	EQU	$00A2		; System Jiffy Timer
 NDX	EQU	$00C6		; # chars in keyboard buffer
 
-;DIGPTR	EQU	$00FB		; Pointer for ASCII conversion routine
-;ZIPPTR	EQU	$00FD		; Pointer for writing ZIP to RAM
-
 COLOR	EQU	$0286		; Foreground color for text
 NMINV	EQU	$0318		; NMI Interrupt Vector
 
